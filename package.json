@@ -8,9 +8,7 @@
     "start": "npm run typecheck && tsx index.tsx"
   },
   "dependencies": {
-    "ai-jsx": "^0.2.0-4",
-    "pino": "^8.14.1",
-    "pino-pretty": "^10.0.0"
+    "ai-jsx": "^0.2.0-4"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
