@@ -2,18 +2,15 @@
  * This is a simple "Hello World" example for AI.JSX, a library for building
  * AI-powered applications using JavaScript and JSX. For more details, check out:
  *   https://ai-jsx.com/
- * 
+ *
  * Run this example with:
  *   $ export OPENAI_API_KEY=<Your OpenAI API key>
  *   $ npm install
  *   $ npm start
  */
 
-import * as LLMx from "ai-jsx";
-import {
-  ChatCompletion,
-  UserMessage,
-} from "ai-jsx/core/completion";
+import * as AI from "ai-jsx";
+import { ChatCompletion, UserMessage } from "ai-jsx/core/completion";
 
 function App() {
   return (
@@ -25,6 +22,6 @@ function App() {
   );
 }
 
-const renderContext = LLMx.createRenderContext();
+const renderContext = AI.createRenderContext();
 const response = await renderContext.render(<App />);
 console.log(response);

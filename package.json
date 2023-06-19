@@ -8,7 +8,7 @@
     "start": "npm run typecheck && tsx index.tsx"
   },
   "dependencies": {
-    "ai-jsx": "^0.2.0-4"
+    "ai-jsx": "^0.2.0-6"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
