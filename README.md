@@ -9,10 +9,10 @@ UI – it just writes its output to the console.
 ## Building and running the app
 
 1. Fork/clone this repo.
-1. Run `npm install`.
 1. Set the `OPENAI_API_KEY` environment variable, which you can obtain from the
 [OpenAI API dashboard](https://platform.openai.com/account/api-keys) .
-3. Run `npm start`.
+1. Run `npm install`.
+1. Run `npm start`.
 
 You'll see output like the following:
 ```
